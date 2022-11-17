@@ -1,0 +1,73 @@
+Looking for git in: git
+Using git 1.9.1 from git
+> git rev-parse --show-toplevel
+> git config --get commit.template
+Open repository: /home/croso1024os
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: No upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :nachos-4.0/code/threads/kernel.h
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :nachos-4.0/code/machine/translate.cc
+> git check-ignore -v -z --stdin
+> git show :nachos-4.0/code/userprog/exception.cc
+> git show :nachos-4.0/code/userprog/syscall.h
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show :nachos-4.0/code/test/start.s
+> git check-ignore -v -z --stdin
+> git show :nachos-4.0/code/userprog/syscall.h
+> git show :nachos-4.0/code/threads/scheduler.h
+> git show :nachos-4.0/code/threads/scheduler.cc
+> git show :nachos-4.0/code/threads/thread.h
+> git show :nachos-4.0/code/threads/thread.cc
+> git show :nachos-4.0/code/threads/thread.h
+> git show :nachos-4.0/code/userprog/syscall.h
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: No upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :nachos-4.0/code/userprog/syscall.h
+> git show :nachos-4.0/code/test/start.s
+> git show :nachos-4.0/code/machine/stats.h
+> git show :nachos-4.0/code/threads/alarm.h
+> git show :nachos-4.0/code/threads/thread.cc
+> git show :nachos-4.0/code/threads/thread.h
+> git show :nachos-4.0/code/threads/scheduler.cc
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: No upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: No upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose
+> git show :nachos-4.0/code/userprog/syscall.h
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git rev-parse master
+> git rev-parse --symbolic-full-name master@{u}
+fatal: No upstream configured for branch 'master'
+> git for-each-ref --format %(refname) %(objectname) --sort -committerdate
+> git remote --verbose

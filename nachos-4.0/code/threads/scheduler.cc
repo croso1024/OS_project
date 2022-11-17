@@ -28,11 +28,21 @@
 // 	Initialize the list of ready but not running threads.
 //	Initially, no ready threads.
 //----------------------------------------------------------------------
+// add 11-15
+int cmp(Thread *a , Thread *b ) 
+{
+    if (a->getPriority() < b->getPriority()) {return -1;}
+    else {return 0;}
 
+}
 Scheduler::Scheduler()
 {
 //	schedulerType = type;
-	readyList = new List<Thread *>; 
+	// add 11-15 
+    //readyList = new List<Thread *>; 
+    readyList = new SortedList<Thread *>(cmp) ; 
+
+
 	toBeDestroyed = NULL;
 } 
 
@@ -54,15 +64,34 @@ Scheduler::~Scheduler()
 //	"thread" is the thread to be put on the ready list.
 //----------------------------------------------------------------------
 
-void
-Scheduler::ReadyToRun (Thread *thread)
+// void
+// Scheduler::ReadyToRun (Thread *thread)
+// {
+//     ASSERT(kernel->interrupt->getLevel() == IntOff);
+//     DEBUG(dbgThread, "Putting thread on ready list: " << thread->getName());
+
+//     thread->setStatus(READY);
+//     readyList->Append(thread);
+// }
+
+
+// add 11-15 
+
+void Scheduler::ReadyToRun (Thread *thread)
 {
     ASSERT(kernel->interrupt->getLevel() == IntOff);
+
     DEBUG(dbgThread, "Putting thread on ready list: " << thread->getName());
 
+    // cout << "Thread : " << thread->getName() << " Priority : " << thread->getPriority() << endl ; 
+
     thread->setStatus(READY);
-    readyList->Append(thread);
+
+    //readyList->Append(thread);
+
+    readyList->Insert(thread) ; 
 }
+
 
 //----------------------------------------------------------------------
 // Scheduler::FindNextToRun
@@ -108,6 +137,10 @@ Scheduler::Run (Thread *nextThread, bool finishing)
  
 //	cout << "Current Thread" <<oldThread->getName() << "    Next Thread"<<nextThread->getName()<<endl;
    
+
+    // cout << "current thread priority " << oldThread->getPriority() << " next thread priotiry " << nextThread->getPriority() << endl ; 
+
+
     ASSERT(kernel->interrupt->getLevel() == IntOff);
 
     if (finishing) {	// mark that we need to delete current thread
@@ -184,3 +217,4 @@ Scheduler::Print()
     cout << "Ready list contents:\n";
     readyList->Apply(ThreadPrint);
 }
+

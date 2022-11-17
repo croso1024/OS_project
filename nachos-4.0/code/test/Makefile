@@ -33,7 +33,7 @@ CPP = /lib/cpp
 INCDIR =-I../userprog -I../threads -I../lib
 CFLAGS = -G 0 -c $(INCDIR)
 
-all: halt shell matmult sort test1 test2
+all: halt shell matmult sort test1 test2 sleepTest1 sleepTest2 scheduling_test1 scheduling_test2 scheduling_test3
 
 start.o: start.s ../userprog/syscall.h
 	$(CPP) $(CPPFLAGS) start.s > strt.s
@@ -73,3 +73,22 @@ test2: test2.o start.o
 	../bin/coff2noff test2.coff test2
 
 
+sleepTest1 : sleepTest1.o start.o 
+	$(LD) $(LDFLAGS) start.o sleepTest1.o -o sleepTest1.coff
+	../bin/coff2noff sleepTest1.coff sleepTest1
+
+sleepTest2 : sleepTest2.o start.o 
+	$(LD) $(LDFLAGS) start.o sleepTest2.o -o sleepTest2.coff
+	../bin/coff2noff sleepTest2.coff sleepTest2
+
+scheduling_test1: scheduling_test1.o start.o
+	$(LD) $(LDFLAGS) start.o scheduling_test1.o -o scheduling_test1.coff
+	../bin/coff2noff scheduling_test1.coff scheduling_test1
+
+scheduling_test2: scheduling_test2.o start.o
+	$(LD) $(LDFLAGS) start.o scheduling_test2.o -o scheduling_test2.coff
+	../bin/coff2noff scheduling_test2.coff scheduling_test2
+
+scheduling_test3: scheduling_test3.o start.o
+	$(LD) $(LDFLAGS) start.o scheduling_test3.o -o scheduling_test3.coff
+	../bin/coff2noff scheduling_test3.coff scheduling_test3

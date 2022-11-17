@@ -1,0 +1,4 @@
+[2022-11-16 17:50:29.402] [renderer1] [error] Unable to read file (Error: File not found (/home/croso1024os/nachos-4.0/code/test/schuduling_test1.c)): Error: Unable to read file (Error: File not found (/home/croso1024os/nachos-4.0/code/test/schuduling_test1.c))
+    at b.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3341:214)
+    at Generator.throw (<anonymous>)
+    at a (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:505)

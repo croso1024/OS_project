@@ -1,0 +1,18 @@
+[2022-10-27 17:46:10.964] [renderer1] [error] Error: Error: ENOENT: no such file or directory, stat '/home/croso1024os/nachos-4.0/code/.vscode'
+[2022-10-27 17:58:21.990] [renderer1] [error] Unable to move/copy when source path is equal or parent of target path: Error: Unable to move/copy when source path is equal or parent of target path
+    at b.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3345:429)
+    at Generator.next (<anonymous>)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:621
+    at new Promise (<anonymous>)
+    at n (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:398)
+    at b.doValidateMoveCopy (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3345:282)
+    at b.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3343:943)
+    at Generator.next (<anonymous>)
+    at file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:621
+    at new Promise (<anonymous>)
+    at n (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:398)
+    at b.doMoveCopy (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3343:868)
+    at b.<anonymous> (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:3343:338)
+    at Generator.next (<anonymous>)
+    at r (file:///usr/share/code/resources/app/out/vs/workbench/workbench.main.js:34:454)
+    at process._tickCallback (internal/process/next_tick.js:68:7)

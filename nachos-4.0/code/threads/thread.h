@@ -61,6 +61,12 @@
 const int StackSize = (4 * 1024);	// in words
 
 
+
+
+
+
+
+
 // Thread state
 enum ThreadStatus { JUST_CREATED, RUNNING, READY, BLOCKED };
 
@@ -82,8 +88,12 @@ class Thread {
     // THEY MUST be in this position for SWITCH to work.
     int *stackTop;			 // the current stack pointer
     void *machineState[MachineStateSize];  // all registers except for stackTop
+    // add 11-15 SJF 
+    int priority ; 
 
   public:
+  
+    int getPriority() {return priority ; }
     Thread(char* debugName);		// initialize a Thread 
     ~Thread(); 				// deallocate a Thread
 					// NOTE -- thread being deleted

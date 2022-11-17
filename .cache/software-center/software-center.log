@@ -1,0 +1,30 @@
+2022-10-11 11:28:23,097 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterAgentAPI', 'available_apps', '{"lang": "en", "series": "trusty", "arch": "i386"}']'
+2022-10-11 11:28:23,097 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2022-10-11 11:28:23,098 - softwarecenter.db.update - WARNING - update_from_software_center_agent: error: 'WARNING:__main__:no data\n'
+2022-10-17 13:37:30,955 - softwarecenter.ui.gtk3.app - INFO - setting up proxy 'None'
+2022-10-17 13:37:31,309 - softwarecenter.region - WARNING - failed to use geoclue: 'org.freedesktop.Geoclue.Error.notAvailable: Geoclue master client has no usable Address providers'
+2022-10-17 13:37:31,353 - softwarecenter.backend.reviews - WARNING - Could not get usefulness from server, no username in config file
+2022-10-17 13:37:31,354 - softwarecenter.plugin - INFO - activating plugin '<module 'webapps_activation' from '/usr/share/software-center/softwarecenter/plugins/webapps_activation.pyc'>'
+2022-10-17 13:37:31,382 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()
+2022-10-17 13:37:32,358 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'RatingsAndReviewsAPI', 'review_stats']'
+2022-10-17 13:37:32,358 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2022-10-17 13:37:33,117 - softwarecenter.db.pkginfo_impl.aptcache - ERROR - simulate failed
+None
+2022-10-17 13:37:33,676 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterAgentAPI', 'exhibits', '{"lang": "en", "series": "trusty"}']'
+2022-10-17 13:37:33,676 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2022-10-17 13:37:33,681 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterRecommenderAPI', 'recommend_app', '{"pkgname": "code"}']'
+2022-10-17 13:37:33,681 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2022-10-17 13:37:33,681 - softwarecenter.db.categories - WARNING - Error while accessing the recommender service: WARNING:__main__:no data
+
+2022-10-17 13:37:33,681 - softwarecenter.ui.gtk3.widgets.recommendations - WARNING - Error while accessing the recommender agent: WARNING:__main__:no data
+
+2022-10-17 13:37:35,716 - softwarecenter.backend.spawn_helper - WARNING - exit code 1 from helper for '['/usr/share/software-center/piston_generic_helper.py', '--datadir', '/usr/share/software-center/', 'SoftwareCenterAgentAPI', 'available_apps', '{"lang": "en", "series": "trusty", "arch": "i386"}']'
+2022-10-17 13:37:35,717 - softwarecenter.backend.spawn_helper - WARNING - got error from helper: 'WARNING:__main__:no data
+'
+2022-10-17 13:37:35,717 - softwarecenter.db.update - WARNING - update_from_software_center_agent: error: 'WARNING:__main__:no data\n'
+2022-10-17 13:37:35,728 - softwarecenter.db.utils - INFO - software-center-agent finished with status 1
+2022-10-17 13:39:52,419 - softwarecenter.db.pkginfo_impl.aptcache - INFO - aptcache.open()

@@ -49,15 +49,80 @@ Alarm::Alarm(bool doRandom)
 void 
 Alarm::CallBack() 
 {
+
+
+
     Interrupt *interrupt = kernel->interrupt;
     MachineStatus status = interrupt->getStatus();
+
+    // add 11-15
+    bool wake = _Sleep_pool.wakeup() ; 
     
-    if (status == IdleMode) {	// is it time to quit?
-        if (!interrupt->AnyFutureInterrupts()) {
+    if (status == IdleMode && !wake && _Sleep_pool.pool_empty()) 
+    {	// is it time to quit?
+        if (!interrupt->AnyFutureInterrupts()) 
+        {
 	    timer->Disable();	// turn off the timer
-	}
-    } else {			// there's someone to preempt
-	interrupt->YieldOnReturn();
+	    }
+    } 
+    else 
+    {			// there's someone to preempt
+        
+        interrupt->YieldOnReturn();
+	    
     }
 }
 
+void Alarm::WaitUntil( int x ) 
+{
+    IntStatus previous_level = kernel->interrupt->SetLevel(IntOff) ;
+
+    Thread* t = kernel->currentThread ; 
+
+    cout << "Alarm WaitUntil start sleep " << endl ; 
+
+    _Sleep_pool.add2sleep(t,x)    ; 
+
+    kernel->interrupt->SetLevel(previous_level) ; 
+}
+
+
+void Sleep_pool::add2sleep(Thread *t, int x ) 
+{
+    ASSERT(kernel ->interrupt->getLevel() == IntOff ) ; 
+
+    _Sleep_pool.push_back( Sleep_thread(t , _current_interrupt + x )) ; 
+
+    t -> Sleep(false) ; 
+} 
+
+
+bool Sleep_pool::pool_empty() 
+{
+    return _Sleep_pool.size() == 0 ; 
+} 
+
+
+bool Sleep_pool::wakeup() 
+{
+    bool wake = false ; 
+
+    _current_interrupt ++ ; 
+
+    for( std::list<Sleep_thread>::iterator iter = _Sleep_pool.begin() ; iter != _Sleep_pool.end(); )
+    {
+        if (_current_interrupt >= iter->when) 
+        {
+            wake = true ; 
+            cout << "Thread wakeup" << endl ; 
+            kernel -> scheduler -> ReadyToRun(iter->sleep) ; 
+            iter = _Sleep_pool.erase(iter) ; 
+        }
+        else 
+        {
+            iter ++ ; 
+        }
+    }
+
+    return wake ; 
+}

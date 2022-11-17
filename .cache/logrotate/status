@@ -1,0 +1,20 @@
+logrotate state -- version 2
+"/home/croso1024os/.cache/upstart/update-notifier-release.log" 2022-11-17-17:15:57
+"/home/croso1024os/.cache/upstart/unity-panel-service.log" 2022-11-17-17:15:57
+"/home/croso1024os/.cache/upstart/unity-settings-daemon.log" 2022-11-17-17:15:57
+"/home/croso1024os/.cache/upstart/ssh-agent.log" 2022-11-17-17:15:57
+"/home/croso1024os/.cache/upstart/indicator-power.log" 2022-11-17-17:15:57
+"/home/croso1024os/.cache/upstart/at-spi2-registryd.log" 2022-11-16-16:50:34
+"/home/croso1024os/.cache/upstart/unity7.log" 2022-11-17-17:15:57
+"/home/croso1024os/.cache/upstart/gnome-session-Unity.log" 2022-11-17-17:15:57
+"/home/croso1024os/.cache/upstart/indicator-application.log" 2022-11-16-17:16:51
+"/home/croso1024os/.cache/upstart/gnome-keyring-gpg.log" 2022-11-17-17:15:57
+"/home/croso1024os/.cache/upstart/indicator-sound.log" 2022-11-17-17:15:57
+"/home/croso1024os/.cache/upstart/window-stack-bridge.log" 2022-11-17-17:15:57
+"/home/croso1024os/.cache/upstart/indicator-printers.log" 2022-11-16-16:50:34
+"/home/croso1024os/.cache/upstart/dbus.log" 2022-11-17-17:15:57
+"/home/croso1024os/.cache/upstart/indicator-session.log" 2022-10-11-11:28:53
+"/home/croso1024os/.cache/upstart/hud.log" 2022-11-16-16:50:34
+"/home/croso1024os/.cache/upstart/im-config.log" 2022-11-17-17:15:57
+"/home/croso1024os/.cache/upstart/gnome-keyring-ssh.log" 2022-11-17-17:15:57
+"/home/croso1024os/.cache/upstart/indicator-bluetooth.log" 2022-11-17-17:15:57

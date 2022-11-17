@@ -25,16 +25,22 @@
 ThreadedKernel::ThreadedKernel(int argc, char **argv)
 {
     randomSlice = FALSE; 
+
     for (int i = 1; i < argc; i++) {
-        if (strcmp(argv[i], "-rs") == 0) {
+        if (strcmp(argv[i], "-rs") == 0) 
+        {
  	    ASSERT(i + 1 < argc);
 	    RandomInit(atoi(argv[i + 1]));// initialize pseudo-random
 					// number generator
 	    randomSlice = TRUE;
 	    i++;
-        } else if (strcmp(argv[i], "-u") == 0) {
+        } 
+        else if (strcmp(argv[i], "-u") == 0) 
+        {
             cout << "Partial usage: nachos [-rs randomSeed]\n";
-	}
+	    }
+
+
     }
 }
 
@@ -52,6 +58,13 @@ ThreadedKernel::Initialize()
     interrupt = new Interrupt;		// start up interrupt handling
     scheduler = new Scheduler();	// initialize the ready queue
     alarm = new Alarm(randomSlice);	// start up time slicing
+
+    // stats = new Statistics();
+    // interrupt = new Interrupt ; 
+    // scheduler = new Scheduler(sType);
+    // alarm = new Alarm(randomSlice);
+
+
 
     // We didn't explicitly allocate the current thread we are running in.
     // But if it ever tries to give up the CPU, we better have a Thread

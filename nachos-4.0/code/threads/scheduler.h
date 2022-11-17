@@ -11,6 +11,7 @@
 
 #include "copyright.h"
 #include "list.h"
+
 #include "thread.h"
 
 // The following class defines the scheduler/dispatcher abstraction -- 
@@ -38,12 +39,16 @@ class Scheduler {
     					// running needs to be deleted
 	void Print();			// Print contents of ready list
     
+
     // SelfTest for scheduler is implemented in class Thread
     
   private:
 	SchedulerType schedulerType;
-	List<Thread *> *readyList;	// queue of threads that are ready to run,
+	
+	//add 11-15
+	//List<Thread *> *readyList;	// queue of threads that are ready to run,
 					// but not running
+	SortedList<Thread *> *readyList ; 
 	Thread *toBeDestroyed;		// finishing thread to be destroyed
     					// by the next thread that runs
 };
