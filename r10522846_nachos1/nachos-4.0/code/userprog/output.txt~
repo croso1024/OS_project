@@ -1,0 +1,1583 @@
+Script started on 2022年10月17日 (週一) 18時33分21秒
+]0;croso1024os@croso1024os-VirtualBox: ~/nachos-4.0/code/userprogcroso1024os@croso1024os-VirtualBox:~/nachos-4.0/code/userprog$ exit./nachos  -d a -e ../test/test1 -e ../test/test2
+Total threads number is 2
+Thread ../test/test1 is executing.
+Thread ../test/test2 is executing.
+Initializing address space: 11, 1408
+Initializing code segment.
+0, 336
+Initializing stack pointer: 1392
+Reading VA 0, size 4
+phys addr = 0
+Reading VA 4, size 4
+phys addr = 4
+Reading VA 224, size 4
+phys addr = 224
+Reading VA 228, size 4
+phys addr = 228
+Writing VA 1388, size 4, value 8
+phys addr = 1388
+Reading VA 232, size 4
+phys addr = 232
+Writing VA 1384, size 4, value 0
+phys addr = 1384
+Reading VA 236, size 4
+phys addr = 236
+Reading VA 240, size 4
+phys addr = 240
+Reading VA 208, size 4
+phys addr = 208
+Reading VA 212, size 4
+phys addr = 212
+Reading VA 244, size 4
+phys addr = 244
+Reading VA 248, size 4
+phys addr = 248
+Writing VA 1376, size 4, value 9
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:9
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 8
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:8
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 7
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:7
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Initializing address space: 11, 1408
+Initializing code segment.
+0, 336
+Initializing stack pointer: 1392
+Reading VA 0, size 4
+phys addr = 0
+Reading VA 4, size 4
+phys addr = 4
+Reading VA 224, size 4
+phys addr = 224
+Reading VA 228, size 4
+phys addr = 228
+Writing VA 1388, size 4, value 8
+phys addr = 1388
+Reading VA 232, size 4
+phys addr = 232
+Writing VA 1384, size 4, value 0
+phys addr = 1384
+Reading VA 236, size 4
+phys addr = 236
+Reading VA 240, size 4
+phys addr = 240
+Reading VA 208, size 4
+phys addr = 208
+Reading VA 212, size 4
+phys addr = 212
+Reading VA 244, size 4
+phys addr = 244
+Reading VA 248, size 4
+phys addr = 248
+Writing VA 1376, size 4, value 20
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:20
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 21
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:21
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 22
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:22
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 23
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:23
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 24
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:24
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 6
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:6
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 7
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:7
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 8
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:8
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 9
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:9
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 10
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:10
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 11
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 12
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:12
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 13
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:13
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 14
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:14
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 15
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:15
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 16
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:16
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:16
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 17
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:17
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 18
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:18
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 19
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:19
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 20
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:20
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 21
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 17
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:17
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 18
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:18
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 19
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:19
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 20
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:20
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 21
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:21
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 22
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:21
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 23
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:23
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 24
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:24
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 25
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:25
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 26
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 272, size 4
+phys addr = 272
+Reading VA 276, size 4
+phys addr = 276
+Reading VA 312, size 4
+phys addr = 312
+Reading VA 316, size 4
+phys addr = 316
+Reading VA 1388, size 4
+phys addr = 1388
+Reading VA 320, size 4
+phys addr = 320
+Reading VA 1384, size 4
+phys addr = 1384
+Reading VA 324, size 4
+phys addr = 324
+Reading VA 328, size 4
+phys addr = 328
+Reading VA 8, size 4
+phys addr = 8
+Reading VA 12, size 4
+phys addr = 12
+Reading VA 32, size 4
+phys addr = 32
+Reading VA 36, size 4
+phys addr = 36
+Program exit
+
+return value:0
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 280, size 4
+phys addr = 280
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 284, size 4
+phys addr = 284
+Reading VA 288, size 4
+phys addr = 288
+Reading VA 192, size 4
+phys addr = 192
+Reading VA 196, size 4
+phys addr = 196
+Print integer:26
+Reading VA 200, size 4
+phys addr = 200
+Reading VA 204, size 4
+phys addr = 204
+Reading VA 292, size 4
+phys addr = 292
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 296, size 4
+phys addr = 296
+Reading VA 300, size 4
+phys addr = 300
+Reading VA 304, size 4
+phys addr = 304
+Reading VA 308, size 4
+phys addr = 308
+Writing VA 1376, size 4, value 27
+phys addr = 1376
+Reading VA 252, size 4
+phys addr = 252
+Reading VA 1376, size 4
+phys addr = 1376
+Reading VA 256, size 4
+phys addr = 256
+Reading VA 260, size 4
+phys addr = 260
+Reading VA 264, size 4
+phys addr = 264
+Reading VA 268, size 4
+phys addr = 268
+Reading VA 272, size 4
+phys addr = 272
+Reading VA 276, size 4
+phys addr = 276
+Reading VA 312, size 4
+phys addr = 312
+Reading VA 316, size 4
+phys addr = 316
+Reading VA 1388, size 4
+phys addr = 1388
+Reading VA 320, size 4
+phys addr = 320
+Reading VA 1384, size 4
+phys addr = 1384
+Reading VA 324, size 4
+phys addr = 324
+Reading VA 328, size 4
+phys addr = 328
+Reading VA 8, size 4
+phys addr = 8
+Reading VA 12, size 4
+phys addr = 12
+Reading VA 32, size 4
+phys addr = 32
+Reading VA 36, size 4
+phys addr = 36
+Program exit
+
+return value:0
+No threads ready or runnable, and no pending interrupts.
+Assuming the program completed.
+Machine halting!
+
+Ticks: total 800, idle 67, system 120, user 613
+Disk I/O: reads 0, writes 0
+Console I/O: reads 0, writes 0
+Paging: faults 0
+Network I/O: packets received 0, sent 0
+]0;croso1024os@croso1024os-VirtualBox: ~/nachos-4.0/code/userprogcroso1024os@croso1024os-VirtualBox:~/nachos-4.0/code/userprog$ exit
+exit
+
+Script done on 2022年10月17日 (週一) 18時33分45秒
