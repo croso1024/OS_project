@@ -1,0 +1,864 @@
+Script started on 2022年10月17日 (週一) 18時41分25秒
+]0;croso1024os@croso1024os-VirtualBox: ~/nachos-4.0/code/userprogcroso1024os@croso1024os-VirtualBox:~/nachos-4.0/code/userprog$ exit[2Plscd userprog/ls[Kcd nachos-4.0/code/lear[K[3Pls^C
+]0;croso1024os@croso1024os-VirtualBox: ~/nachos-4.0/code/userprogcroso1024os@croso1024os-VirtualBox:~/nachos-4.0/code/userprog$ j3[K[Kca[K[K./nachos -e [K[Kd a .e [K[K[K-e ../test/test1 -e ../test/test2
+Total threads number is 2
+Thread ../test/test1 is executing.
+Thread ../test/test2 is executing.
+Initializing address space: 11, 1408
+Initializing code segment.
+0, 336
+Initializing stack pointer: 1392
+phys addr = 0
+phys addr = 4
+phys addr = 224
+phys addr = 228
+Writing VA 1388, size 4, value 8
+phys addr = 1388
+phys addr = 232
+Writing VA 1384, size 4, value 0
+phys addr = 1384
+phys addr = 236
+phys addr = 240
+phys addr = 208
+phys addr = 212
+phys addr = 244
+phys addr = 248
+Writing VA 1376, size 4, value 9
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:9
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 8
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:8
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 7
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:7
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+Initializing address space: 11, 1408
+Initializing code segment.
+0, 336
+Initializing stack pointer: 1392
+phys addr = 0
+phys addr = 4
+phys addr = 224
+phys addr = 228
+Writing VA 1388, size 4, value 8
+phys addr = 1388
+phys addr = 232
+Writing VA 1384, size 4, value 0
+phys addr = 1384
+phys addr = 236
+phys addr = 240
+phys addr = 208
+phys addr = 212
+phys addr = 244
+phys addr = 248
+Writing VA 1376, size 4, value 20
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:20
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 21
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:21
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 22
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:22
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 23
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:23
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 24
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:24
+phys addr = 200
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 6
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:6
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 7
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:7
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 8
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:8
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 9
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:9
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 10
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:10
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 11
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 12
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:12
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 13
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:13
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 14
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:14
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 15
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:15
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 16
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:16
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:16
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 17
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:17
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 18
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:18
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 19
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:19
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 20
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:20
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 21
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 308
+Writing VA 1376, size 4, value 17
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:17
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 18
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:18
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 19
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:19
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 20
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:20
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 21
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:21
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 22
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 192
+phys addr = 196
+Print integer:21
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 23
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:23
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 24
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:24
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 25
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:25
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 26
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 272
+phys addr = 276
+phys addr = 312
+phys addr = 316
+phys addr = 1388
+phys addr = 320
+phys addr = 1384
+phys addr = 324
+phys addr = 328
+phys addr = 8
+phys addr = 12
+phys addr = 32
+phys addr = 36
+Program exit
+
+return value:0
+phys addr = 268
+phys addr = 280
+phys addr = 1376
+phys addr = 284
+phys addr = 288
+phys addr = 192
+phys addr = 196
+Print integer:26
+phys addr = 200
+phys addr = 204
+phys addr = 292
+phys addr = 1376
+phys addr = 296
+phys addr = 300
+phys addr = 304
+phys addr = 308
+Writing VA 1376, size 4, value 27
+phys addr = 1376
+phys addr = 252
+phys addr = 1376
+phys addr = 256
+phys addr = 260
+phys addr = 264
+phys addr = 268
+phys addr = 272
+phys addr = 276
+phys addr = 312
+phys addr = 316
+phys addr = 1388
+phys addr = 320
+phys addr = 1384
+phys addr = 324
+phys addr = 328
+phys addr = 8
+phys addr = 12
+phys addr = 32
+phys addr = 36
+Program exit
+
+return value:0
+No threads ready or runnable, and no pending interrupts.
+Assuming the program completed.
+Machine halting!
+
+Ticks: total 800, idle 67, system 120, user 613
+Disk I/O: reads 0, writes 0
+Console I/O: reads 0, writes 0
+Paging: faults 0
+Network I/O: packets received 0, sent 0
+]0;croso1024os@croso1024os-VirtualBox: ~/nachos-4.0/code/userprogcroso1024os@croso1024os-VirtualBox:~/nachos-4.0/code/userprog$ exit
+exit
+
+Script done on 2022年10月17日 (週一) 18時41分45秒
