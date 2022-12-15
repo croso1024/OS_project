@@ -40,6 +40,10 @@ class TranslationEntry {
 			// page is referenced or modified.
     bool dirty;         // This bit is set by the hardware every time the
 			// page is modified.
+
+    // add LRU counter and pageTable ID 
+    int LRU_count ; 
+    int ID ; 
 };
 
 #endif

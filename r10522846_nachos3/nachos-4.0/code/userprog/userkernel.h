@@ -29,6 +29,9 @@ class UserProgKernel : public ThreadedKernel {
 
     void SelfTest();		// test whether kernel is working
 
+    // add 1213 create a secondary storage for swap 
+    SynchDisk *Disk4swap ;  
+
 // These are public for notational convenience.
     Machine *machine;
     FileSystem *fileSystem;

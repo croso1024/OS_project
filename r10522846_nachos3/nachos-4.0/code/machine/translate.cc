@@ -189,7 +189,12 @@ Machine::Translate(int virtAddr, int* physAddr, int size, bool writing)
     TranslationEntry *entry;
     unsigned int pageFrame;
 
-    //DEBUG(dbgAddr, "\tTranslate " << virtAddr << (writing ? " , write" : " , read"));
+    DEBUG(dbgAddr, "\tTranslate " << virtAddr << (writing ? " , write" : " , read"));
+
+	// add 1213 , find target kick off the table and frame_index 
+	int kick_page ; 
+	unsigned int frame_index  ; 
+	
 
 // check for alignment errors
     if (((size == 4) && (virtAddr & 0x3)) || ((size == 2) && (virtAddr & 0x1))){
@@ -210,10 +215,65 @@ Machine::Translate(int virtAddr, int* physAddr, int size, bool writing)
 	if (vpn >= pageTableSize) {
 	    DEBUG(dbgAddr, "Illegal virtual page # " << virtAddr);
 	    return AddressErrorException;
-	} else if (!pageTable[vpn].valid) {
-	    DEBUG(dbgAddr, "Invalid virtual page # " << virtAddr);
-	    return PageFaultException;
 	}
+
+	// add 1213 , use demand pageing  
+	else if (!pageTable[vpn].valid) {
+
+	    // DEBUG(dbgAddr, "Invalid virtual page # " << virtAddr);
+	    // return PageFaultException;
+		kernel->stats->numPageFaults++ ; 
+		frame_index = 0 ; 
+		while(kernel->machine->phyPage_record[frame_index] != false && frame_index < NumPhysPages){frame_index++ ;}
+		if (frame_index<NumPhysPages){
+			char *addrTemp = new char[PageSize] ; 
+			kernel->machine->phyPage_record[frame_index]=true ; 
+			kernel->machine->phyPage_info[frame_index] = pageTable[vpn].ID; 
+			kernel->machine->main_Table[frame_index]=&pageTable[vpn] ; 
+			pageTable[vpn].pcysicalPage = frame_index ; 
+			pageTable[vpn].valid = true ; 
+			pageTable[vpn].LRU_count ++ ; 
+
+			kernel->Disk4swap->ReadSector(pageTable[vpn].virtualPage, addrTemp);
+            bcopy(addrTemp,&mainMemory[frame_index*PageSize],PageSize);
+		}
+		
+		else 
+		{
+			char *addrTemp1 ; 
+			char *addrTemp2 ; 
+			addrTemp1 = new char[PageSize] ; 
+			addrTemp2 = new char[PageSize] ; 
+
+			int min = PageTable[0].LRU_count ; 
+			kick_page = 0 ; 
+
+			for ( int index = 0 ; index < 32 ; index++ ) 
+			{
+				if (min > pageTable[index].LRU_count) 
+				{
+					min = pageTable[index].LRU_count ; 
+					kick_page = index ; 
+				}
+			}
+			pageTable[kick_page].LRU_count ++ ;
+
+			bcopy(&mainMemory[kick_page*PageSize] , addrTemp1 , PageSize) ; 
+			kernel->Disk4swap->ReadSector(pageTable[vpn].virtualPage , addrTemp2) ; 
+			bcopy(addrTemp2 , &mainMemory[kick_page*PageSize] , PageSize) ; 
+			kernel->Disk4swap->WriteSector(pageTable[vpn].virtualPage  , addrTemp1) ; 
+
+			main_Table[vpn].valid  = true ; 
+			main_Table[vpn].physicalPage = kick_page ; 
+
+			kernel->machine->phyPage_info[kick_page] = pageTable[vpn].ID ; 
+			main_Table[kick_page] = &pageTable[vpn] ; 
+
+
+		}
+
+	}
+
 	entry = &pageTable[vpn];
     } else {
         for (entry = NULL, i = 0; i < TLBSize; i++)
@@ -237,15 +297,17 @@ Machine::Translate(int virtAddr, int* physAddr, int size, bool writing)
 
     // if the pageFrame is too big, there is something really wrong! 
     // An invalid translation was loaded into the page table or TLB. 
-    if (pageFrame >= NumPhysPages) { 
+    if (pageFrame >= NumPhysPages) 
+	{ 
 	DEBUG(dbgAddr, "Illegal pageframe " << pageFrame);
 	return BusErrorException;
     }
+
     entry->use = TRUE;		// set the use, dirty bits
     if (writing)
 	entry->dirty = TRUE;
     *physAddr = pageFrame * PageSize + offset;
     ASSERT((*physAddr >= 0) && ((*physAddr + size) <= MemorySize));
-    // DEBUG(dbgAddr, "phys addr = " << *physAddr);
+    DEBUG(dbgAddr, "phys addr = " << *physAddr);
     return NoException;
 }

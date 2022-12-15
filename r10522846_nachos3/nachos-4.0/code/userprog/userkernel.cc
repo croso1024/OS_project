@@ -58,6 +58,10 @@ UserProgKernel::Initialize()
 
     machine = new Machine(debugUserProg);
     fileSystem = new FileSystem();
+
+	// 1213 create swapdisk 
+	Disk4swap = new SynchDisk("New swapDisk") ; 
+
 #ifdef FILESYS
     synchDisk = new SynchDisk("New SynchDisk");
 #endif // FILESYS

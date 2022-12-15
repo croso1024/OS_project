@@ -27,14 +27,16 @@ class AddrSpace {
     AddrSpace();			// Create an address space.
     ~AddrSpace();			// De-allocate an address space
 
+
+    int ID ;
+
     void Execute(char *fileName);	// Run the the program
 					// stored in the file "executable"
 
     void SaveState();			// Save/restore address space-specific
     void RestoreState();		// info on a context switch 
 
-    static bool phyPageState[NumPhysPages] ; 
-    static unsigned int availablePages ;  
+    
 
   private:
     TranslationEntry *pageTable;	// Assume linear page table translation
@@ -47,7 +49,7 @@ class AddrSpace {
 
     void InitRegisters();		// Initialize user-level CPU registers,
 					// before jumping to user code
-
+    bool pageTable_Loaded ; 
 };
 
 #endif // ADDRSPACE_H
