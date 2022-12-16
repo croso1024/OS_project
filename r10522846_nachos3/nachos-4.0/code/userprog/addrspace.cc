@@ -55,7 +55,7 @@ SwapHeader (NoffHeader *noffH)
 AddrSpace::AddrSpace()
 {
     ID = (kernel->machine->machine_number)++ ; 
-    kernel->machine->machine_number = (kernel->machine->machine_number) ++ ; 
+    kernel->machine->machine_number = (kernel->machine->machine_number)++ ; 
     // pageTable = new TranslationEntry[NumPhysPages];
     // for (unsigned int i = 0; i < NumPhysPages; i++) {
 	// pageTable[i].virtualPage = i;	// for now, virt page # = phys page #
@@ -131,7 +131,7 @@ AddrSpace::Load(char *fileName)
     // 1213 create page table 
     pageTable = new TranslationEntry[numPages] ; 
 
-    ASSERT(numPages <= NumPhysPages);		// check we're not trying
+    //ASSERT(numPages <= NumPhysPages);		// check we're not trying
 						// to run anything too big --
 						// at least until we have
 						// virtual memory
@@ -156,11 +156,11 @@ AddrSpace::Load(char *fileName)
             pageTable[i].physicalPage = frame_index ; 
 
             pageTable[i].valid = true ; 
-            pageTalbe[i].use = false ;
-            pageTalbe[i].dirty= false ;
-            pageTalbe[i].readOnly= false ;
+            pageTable[i].use = false ;
+            pageTable[i].dirty= false ;
+            pageTable[i].readOnly= false ;
 
-            pageTalbe[i].ID = ID ; 
+            pageTable[i].ID = ID ; 
             pageTable[i].LRU_count ++ ; 
             executable->ReadAt(
                 &(kernel->machine->mainMemory[frame_index*PageSize]),
@@ -191,7 +191,11 @@ AddrSpace::Load(char *fileName)
        }
     }
 	if (noffH.initData.size > 0) {
-  
+        executable->ReadAt(
+            &(kernel->machine->mainMemory[noffH.initData.virtualAddr]),
+            noffH.initData.size , noffH.initData.inFileAddr
+        );
+
     }
 
     delete executable;			// close file
@@ -209,6 +213,9 @@ AddrSpace::Load(char *fileName)
 void 
 AddrSpace::Execute(char *fileName) 
 {
+    // check page table 
+    pageTable_Loaded = false ; 
+
     if (!Load(fileName)) {
 	cout << "inside !Load(FileName)" << endl;
 	return;				// executable not found
@@ -217,6 +224,8 @@ AddrSpace::Execute(char *fileName)
     //kernel->currentThread->space = this;
     this->InitRegisters();		// set the initial register values
     this->RestoreState();		// load page table register
+
+    pageTable_Loaded = true ; 
 
     kernel->machine->Run();		// jump to the user progam
 
@@ -269,8 +278,11 @@ AddrSpace::InitRegisters()
 
 void AddrSpace::SaveState() 
 {
+    if (pageTable_Loaded)
+    {
         pageTable=kernel->machine->pageTable;
         numPages=kernel->machine->pageTableSize;
+    }
 }
 
 //----------------------------------------------------------------------

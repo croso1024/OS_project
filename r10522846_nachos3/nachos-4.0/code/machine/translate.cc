@@ -226,11 +226,15 @@ Machine::Translate(int virtAddr, int* physAddr, int size, bool writing)
 		frame_index = 0 ; 
 		while(kernel->machine->phyPage_record[frame_index] != false && frame_index < NumPhysPages){frame_index++ ;}
 		if (frame_index<NumPhysPages){
-			char *addrTemp = new char[PageSize] ; 
+
+			char *addrTemp ;
+			addrTemp = new char[PageSize] ; 
+
+
 			kernel->machine->phyPage_record[frame_index]=true ; 
 			kernel->machine->phyPage_info[frame_index] = pageTable[vpn].ID; 
 			kernel->machine->main_Table[frame_index]=&pageTable[vpn] ; 
-			pageTable[vpn].pcysicalPage = frame_index ; 
+			pageTable[vpn].physicalPage = frame_index ; 
 			pageTable[vpn].valid = true ; 
 			pageTable[vpn].LRU_count ++ ; 
 
@@ -245,9 +249,9 @@ Machine::Translate(int virtAddr, int* physAddr, int size, bool writing)
 			addrTemp1 = new char[PageSize] ; 
 			addrTemp2 = new char[PageSize] ; 
 
-			int min = PageTable[0].LRU_count ; 
+			int min = pageTable[0].LRU_count ; 
 			kick_page = 0 ; 
-
+			// linear search to find target
 			for ( int index = 0 ; index < 32 ; index++ ) 
 			{
 				if (min > pageTable[index].LRU_count) 
@@ -256,15 +260,18 @@ Machine::Translate(int virtAddr, int* physAddr, int size, bool writing)
 					kick_page = index ; 
 				}
 			}
-			pageTable[kick_page].LRU_count ++ ;
+			pageTable[kick_page].LRU_count++ ;
 
 			bcopy(&mainMemory[kick_page*PageSize] , addrTemp1 , PageSize) ; 
 			kernel->Disk4swap->ReadSector(pageTable[vpn].virtualPage , addrTemp2) ; 
 			bcopy(addrTemp2 , &mainMemory[kick_page*PageSize] , PageSize) ; 
 			kernel->Disk4swap->WriteSector(pageTable[vpn].virtualPage  , addrTemp1) ; 
 
-			main_Table[vpn].valid  = true ; 
-			main_Table[vpn].physicalPage = kick_page ; 
+			main_Table[kick_page]->virtualPage = pageTable[vpn].virtualPage ; 
+			main_Table[kick_page]->valid = false ;
+
+			pageTable[vpn].valid  = true ; 
+			pageTable[vpn].physicalPage = kick_page ; 
 
 			kernel->machine->phyPage_info[kick_page] = pageTable[vpn].ID ; 
 			main_Table[kick_page] = &pageTable[vpn] ; 
