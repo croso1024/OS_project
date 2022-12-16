@@ -128,6 +128,9 @@ AddrSpace::Load(char *fileName)
 						// to leave room for the stack
     numPages = divRoundUp(size, PageSize);
 //	cout << "number of pages of " << fileName<< " is "<<numPages<<endl;
+    cout << "--- size : "<<size << " page size " << PageSize << " numPage: " << numPages << endl ;
+    //DEBUG(dbgAddr,"--- size : "<<size << "page size" << PageSize << "numPage:" << numPages );
+
     size = numPages * PageSize;
 
     ASSERT(numPages <= NumPhysPages);		// check we're not trying

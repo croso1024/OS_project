@@ -4,7 +4,7 @@
 //
 //	User programs are loaded into "mainMemory"; to Nachos,
 //	this looks just like an array of bytes.  Of course, the Nachos
-//	kernel is in memory too -- but as in most machines these days,
+//	kernel is in memory too -- but as in most machines these days,	
 //	the kernel is loaded into a separate memory region from user
 //	programs, and accesses to kernel memory are not translated or paged.
 //
@@ -12,7 +12,7 @@
 //	by the simulator.  Each memory reference is translated, checked
 //	for errors, etc.
 //
-//  DO NOT CHANGE -- part of the machine emulation
+//  DO NOT CHANGE -- part of the machine emulationdd
 //
 // Copyright (c) 1992-1996 The Regents of the University of California.
 // All rights reserved.  See copyright.h for copyright notice and limitation 
