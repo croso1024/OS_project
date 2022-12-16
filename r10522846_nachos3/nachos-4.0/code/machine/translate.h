@@ -41,8 +41,8 @@ class TranslationEntry {
     bool dirty;         // This bit is set by the hardware every time the
 			// page is modified.
 
-    // add LRU counter and pageTable ID 
-    int LRU_count ; 
+    // add counter and pageTable ID 
+    int counter ; 
     int ID ; 
 };
 

@@ -219,7 +219,8 @@ Machine::Translate(int virtAddr, int* physAddr, int size, bool writing)
 
 	// add 1213 , use demand pageing  
 	else if (!pageTable[vpn].valid) {
-
+	//if frame table still has space -> load from disk to memory & update  counter 
+	//if frame table full , choose a frame to be replaced  
 	    // DEBUG(dbgAddr, "Invalid virtual page # " << virtAddr);
 	    // return PageFaultException;
 		kernel->stats->numPageFaults++ ; 
@@ -236,7 +237,7 @@ Machine::Translate(int virtAddr, int* physAddr, int size, bool writing)
 			kernel->machine->main_Table[frame_index]=&pageTable[vpn] ; 
 			pageTable[vpn].physicalPage = frame_index ; 
 			pageTable[vpn].valid = true ; 
-			pageTable[vpn].LRU_count ++ ; 
+			pageTable[vpn].counter ++ ; 
 
 			kernel->Disk4swap->ReadSector(pageTable[vpn].virtualPage, addrTemp);
             bcopy(addrTemp,&mainMemory[frame_index*PageSize],PageSize);
@@ -249,18 +250,20 @@ Machine::Translate(int virtAddr, int* physAddr, int size, bool writing)
 			addrTemp1 = new char[PageSize] ; 
 			addrTemp2 = new char[PageSize] ; 
 
-			int min = pageTable[0].LRU_count ; 
+			int min = pageTable[0].counter ; 
 			kick_page = 0 ; 
-			// linear search to find target
+			//linear search to find target
 			for ( int index = 0 ; index < 32 ; index++ ) 
 			{
-				if (min > pageTable[index].LRU_count) 
+				if (min > pageTable[index].counter) 
+				//if (min < pageTable[index].counter) //  try to max pagefault
 				{
-					min = pageTable[index].LRU_count ; 
+					min = pageTable[index].counter ; 
 					kick_page = index ; 
 				}
 			}
-			pageTable[kick_page].LRU_count++ ;
+			//kick_page = rand() % 32 ;
+			pageTable[kick_page].counter++ ;
 
 			bcopy(&mainMemory[kick_page*PageSize] , addrTemp1 , PageSize) ; 
 			kernel->Disk4swap->ReadSector(pageTable[vpn].virtualPage , addrTemp2) ; 

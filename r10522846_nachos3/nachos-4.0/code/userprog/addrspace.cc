@@ -161,7 +161,7 @@ AddrSpace::Load(char *fileName)
             pageTable[i].readOnly= false ;
 
             pageTable[i].ID = ID ; 
-            pageTable[i].LRU_count ++ ; 
+            pageTable[i].counter ++ ; 
             executable->ReadAt(
                 &(kernel->machine->mainMemory[frame_index*PageSize]),
                 PageSize, noffH.code.inFileAddr+(i*PageSize)
